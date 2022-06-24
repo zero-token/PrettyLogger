@@ -1,0 +1,40 @@
+﻿<Project>
+  <PropertyGroup>
+    <Product>Pretty Logger</Product>
+    <Authors>zeroToken</Authors>
+    <Version>0.1.0-alpha-0</Version>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <LangVersion>10.0</LangVersion>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>disable</ImplicitUsings>
+
+    <PackageId>PrettyLogger</PackageId>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+    <Description>description</Description>
+    <PackageReleaseNotes>first release</PackageReleaseNotes>
+    <PackageTags>logging structured semantic</PackageTags>
+    <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+    <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
+    <RepositoryUrl>https://github.com/zero-token/PrettyLogger.git</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/zero-token/PrettyLogger/</PackageProjectUrl>
+
+    <EnforceCodeStyleInBuild>true</EnforceCodeStyleInBuild>
+    <AnalysisLevel>6.0-Recommended</AnalysisLevel>
+
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <NoWarn>1573;1591;1712;1701;1702</NoWarn>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)'!='Debug'">
+    <CodeAnalysisTreatWarningsAsErrors>true</CodeAnalysisTreatWarningsAsErrors>
+    <Optimize>true</Optimize>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)'=='Debug'">
+    <CheckForOverflowUnderflow>true</CheckForOverflowUnderflow>
+  </PropertyGroup>
+
+</Project>
