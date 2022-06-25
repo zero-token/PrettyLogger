@@ -5,11 +5,11 @@ VisualStudioVersion = 17.2.32616.157
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{0A5DCA9A-F16A-4DFB-9B67-0FFB217F972D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrettyLogger", "src\PrettyLogger\PrettyLogger.csproj", "{84BF652C-5909-4003-AE2B-78CAD4AAD400}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PrettyLogger", "src\PrettyLogger\PrettyLogger.csproj", "{84BF652C-5909-4003-AE2B-78CAD4AAD400}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{01E69EA1-ABBF-49C1-B355-F6DDE4DA267D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrettyLogger.Test", "test\PrettyLogger.Test\PrettyLogger.Test.csproj", "{597C33B7-7674-492C-B136-E1D222E3CE25}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PrettyLogger.Test", "test\PrettyLogger.Test\PrettyLogger.Test.csproj", "{597C33B7-7674-492C-B136-E1D222E3CE25}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{83F8F62D-B48B-442A-A745-3D9260418F2D}"
 	ProjectSection(SolutionItems) = preProject
